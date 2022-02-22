@@ -3,7 +3,7 @@
    {
     'target_name': 'nanomsg',
     'type': 'static_library',
-    'includes': [ 'common.gypi' ],
+    'includes': [ 'common.gypi', 'download.gypi', ],
     'conditions': [
       ['OS=="mac"', {
         'includes': [ 'macosx.gypi' ]
@@ -15,7 +15,6 @@
         'includes': [ 'win.gypi' ]
       }],
     ],
-    'dependencies': ['download.gyp:nanomsg_download', ],
   },
  ]
 }
