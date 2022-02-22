@@ -6,6 +6,7 @@
         "nanomsg-1.1.0.tar.gz",
         "nanomsg/src",
     ],
+    "type": "none",
       "actions": [
         {
             "action_name": "download_nmsg",
