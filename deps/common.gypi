@@ -129,6 +129,6 @@
             "inputs": ["nanomsg-1.1.0.tar.gz", "nanomsg"],
             "outputs": ["nanomsg/src"],
             "action": ["tar", "--strip-components=1", "-xz", "-C", "nanomsg", "-f", "nanomsg-1.1.0.tar.gz"],
-        }
+        },
     ],
 }
